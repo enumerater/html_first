@@ -443,3 +443,15 @@
     margin-top: 23px;
     margin-bottom: 60px;
 }
+
+
+.r2{
+    display: none;
+    margin:0;
+    position:fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 999;
+}
