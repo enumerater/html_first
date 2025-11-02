@@ -94,20 +94,15 @@
         color: #FFFFFF;
     }
 
-/* 只让第一个 ul 使用 flex，其他 ul 不受影响 */
-.content > ul:first-of-type {
-    display: flex;
-    width: 3720px;
-}
 .content{
     position: relative;
-    overflow: hidden; 
 }
 
 .content-left{
     position: absolute;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.42);
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 100;
 }
 
 .content-left li{
@@ -486,5 +481,12 @@
             font-weight: 400;
             cursor: pointer;
         }
+    }
+}
+
+.swiper-slide{
+    img{
+        width: 1240px;
+        height: 500px;
     }
 }
